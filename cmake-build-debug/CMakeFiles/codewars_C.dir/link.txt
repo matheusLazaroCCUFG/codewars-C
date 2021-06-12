@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/codewars_C.dir/codewars-C/7kyu/growthOfAPopulation/growthOfAPopulation.c.o CMakeFiles/codewars_C.dir/codewars-C/7kyu/vowelCount/get_count.c.o -o codewars_C 
