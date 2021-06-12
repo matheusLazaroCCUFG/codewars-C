@@ -1,5 +1,4 @@
 # Instruções git
-'''
 git init
 git add README.md
 git commit -m "first commit"
@@ -15,7 +14,5 @@ git add README.txt codewars-C
 git commit
 git push
 https://github.com/matheusLazaroCCUFG/codewars-KATA.git
-
 Erros:
 git pull
-'''fasdfas
