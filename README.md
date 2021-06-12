@@ -1,5 +1,5 @@
 # Instruções git
-'''
+"""
 git init
 git add README.md
 git commit -m "first commit"
@@ -18,4 +18,4 @@ https://github.com/matheusLazaroCCUFG/codewars-KATA.git
 
 Erros:
 git pull
-'''
+"""
