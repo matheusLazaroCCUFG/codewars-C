@@ -1,4 +1,4 @@
-<strong>Instruções git</strong>
+Instruções git*********************************************************************************************************
 git init
 git add README.md
 git commit -m "first commit"
