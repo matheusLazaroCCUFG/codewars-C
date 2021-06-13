@@ -53,20 +53,16 @@ int main(){
  * @param n
  * @return
  */
-char *series_sum(const size_t n){
-    int x = 1, i;
-    double serie = 0.0;
-    int m = (int)n;
-    char *buffer = malloc(32);
+char *series_sum(const size_t n) {
+    double serie = 0.00, x = 1.00;
+    char* buffer = calloc(16, sizeof(char));
 
-    if(m == 0){
-        return "0.00";
+    for (int i = 0; i < n; i++) {
+        serie += (1.00/x);
+        x += (double) 3;
     }
 
-    for(i = 0; i < m; i++){
-        serie += 1.0 / x;
-        x += 3;
-    }
-    sprintf(buffer, "%.2lf", serie);
+    sprintf(buffer,"%.2f", serie);
+
     return buffer;
 }
