@@ -3,6 +3,20 @@
 #########################################################################################
 
 KATA Codewars
+
+7kyu ************************************************************************************
+    Problema: Split Strings
+         Instruções:
+             Conclua a solução para que ela divida a string em pares de dois caracteres.
+             Se a string contiver um número ímpar de caracteres, ela deverá substituir
+             o segundo caractere ausente do par final por um sublinhado ('_').
+         Exemplos:
+             StringSplit.solution("abc") // should return {"ab", "c_"}
+             StringSplit.solution("abcdef") // should return {"ab", "cd", "ef"}
+         Habilidades:
+             ALGORITHMS, REGULAR EXPRESSIONS, DECLARATIVE PROGRAMMING,
+             ADVANCED LANGUAGE FEATURES, FUNDAMENTALS, STRINGS
+
 6kyu ************************************************************************************
     Problema: Multiples of 3 or 5
         Instruções:
