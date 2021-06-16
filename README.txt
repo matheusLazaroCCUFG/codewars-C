@@ -76,6 +76,23 @@
                 FUNDAMENTALS, ARRAYS, LISTS, DATA STRUCTURES, NUMBERS, ARITHMETIC, MATHEMATICS,
                 ALGORITHMS
 
+        14/06/2021
+
+        CamelCase Method
+        Instruções:
+            Escreva o método .camelCase simples ( camel_case função em PHP, CamelCase em C# ou
+            camelCaseem Java) para strings. Todas as palavras devem ter a primeira letra
+            maiúscula sem espaços.
+
+            Por exemplo:
+
+            camel_case("hello case");      // => "HelloCase"
+            camel_case("camel case word"); // => "CamelCaseWord"
+            Não se esqueça de avaliar este kata! Obrigado :)
+        Habilidades:
+            ALGORITHMS, FUNDAMENTALS, STRINGS
+
+
 Instruções git **************************************************************************
 git init
 git add README.md
