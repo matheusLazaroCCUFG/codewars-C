@@ -16,6 +16,17 @@ KATA Codewars
          Habilidades:
              ALGORITHMS, REGULAR EXPRESSIONS, DECLARATIVE PROGRAMMING,
              ADVANCED LANGUAGE FEATURES, FUNDAMENTALS, STRINGS
+             
+    Problema: Square Every Digit
+        Instruções:
+            Receber. Neste kata, você deve elevar ao quadrado cada dígito de um número e
+            concatená-los.
+
+            Por exemplo, se executarmos 9119 por meio da função, 811181 aparecerá, porque 9^2 é 81 e 1^2 é 1.
+
+            Nota: a função aceita um inteiro e retorna um inteiro
+        Habilidades:
+            FUNDAMENTALS, MATHEMATICS, ALGORITHMS, NUMBERS
 
 6kyu ************************************************************************************
     Problema: Multiples of 3 or 5
