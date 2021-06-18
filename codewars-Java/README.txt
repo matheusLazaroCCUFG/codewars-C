@@ -44,3 +44,32 @@ KATA Codewars
          Habilidades:
              ALGORITHMS, REGULAR EXPRESSIONS, DECLARATIVE PROGRAMMING,
              ADVANCED LANGUAGE FEATURES, FUNDAMENTALS, STRINGS
+
+    Problema: Consecutive strings
+        Instruções:
+            Você recebe uma matriz (lista) strarrde strings e um inteiro k. Sua tarefa é
+            retornar a primeira string mais longa consistindo em k strings consecutivas
+            obtidas no array.
+
+        Exemplos:
+            strarr = ["árvore", "foling", "trashy", "blue", "abcdef", "uvwxyz"], k = 2
+
+            Concatene as sequências consecutivas de strarr por 2, obtemos:
+
+            treefoling (comprimento 10) concatenação de strarr [0] e strarr [1]
+            folingtrashy ("12) concatenação de strarr [1] e strarr [2]
+            trashyblue ("10) concatenação de strarr [2] e strarr [3]
+            concatenação blueabcdef ("10) de strarr [3] e strarr [4]
+            abcdefuvwxyz ("12) concatenação de strarr [4] e strarr [5]
+
+            Duas strings são as mais longas: "folingtrashy" e "abcdefuvwxyz".
+            O primeiro que veio é "folingtrashy", então
+            longest_consec (strarr, 2) deve retornar "folingtrashy".
+
+            Do mesmo jeito:
+            longest_consec (["zona", "abigail", "theta", "forma", "libe", "zas", "theta", "abigail"], 2) -> "abigailtheta"
+        Observação
+            sequências consecutivas: seguem uma após a outra sem interrupção
+
+        Habilidades:
+            FUNDAMENTALS
