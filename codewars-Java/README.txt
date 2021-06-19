@@ -16,7 +16,7 @@ KATA Codewars
          Habilidades:
              ALGORITHMS, REGULAR EXPRESSIONS, DECLARATIVE PROGRAMMING,
              ADVANCED LANGUAGE FEATURES, FUNDAMENTALS, STRINGS
-             
+
     Problema: Square Every Digit
         Instruções:
             Receber. Neste kata, você deve elevar ao quadrado cada dígito de um número e
@@ -84,3 +84,13 @@ KATA Codewars
 
         Habilidades:
             FUNDAMENTALS
+
+    Problema: Find the odd int
+            Instruções:
+                Dado um array de inteiros, encontre aquele que aparece um número ímpar
+                de vezes.
+
+                Sempre haverá apenas um número inteiro que aparece um número ímpar
+                de vezes.
+            Habilidades:
+                FUNDAMENTALS
