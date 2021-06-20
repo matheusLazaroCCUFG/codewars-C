@@ -135,3 +135,22 @@ KATA Codewars
 
             Habilidades:
                 FUNDAMENTALS
+
+    Problema: Find the unique number
+            Instruções:
+                Existe uma matriz com alguns números. Todos os números são iguais,
+                exceto um. Tente encontrar!
+
+                Kata.findUniq(new double[]{ 1, 1, 1, 2, 1, 1 }); // => 2
+                Kata.findUniq(new double[]{ 0, 0, 0.55, 0, 0 }); // => 0.55
+                É garantido que a matriz contém pelo menos 3 números.
+
+                Os testes contêm alguns arrays muito grandes, então pense no desempenho.
+
+                Este é o primeiro kata da série:
+
+                Encontre o número único (este kata)
+                Encontre a string única
+                Encontre o único
+            Habilidades:
+                FUNDAMENTALS, ALGORITHMS, NUMBERS, ARRAYS
