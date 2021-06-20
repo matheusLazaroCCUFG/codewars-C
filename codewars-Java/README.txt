@@ -154,3 +154,25 @@ KATA Codewars
                 Encontre o único
             Habilidades:
                 FUNDAMENTALS, ALGORITHMS, NUMBERS, ARRAYS
+
+    Problema: Take a Ten Minute Walk
+            Instruções:
+                Você mora na cidade de Cartesia, onde todas as estradas estão dispostas em
+                uma grade perfeita. Você chegou dez minutos mais cedo para um compromisso,
+                então decidiu aproveitar a oportunidade para fazer uma curta caminhada.
+                A cidade oferece aos seus cidadãos um aplicativo gerador de caminhada em
+                seus telefones - toda vez que você pressiona o botão, ele envia uma série
+                de strings de uma letra que representam direções para caminhar
+                (por exemplo, ['n', 's', 'w', 'e']). Você sempre anda apenas um único
+                quarteirão para cada letra (direção) e sabe que leva um minuto para
+                atravessar um quarteirão da cidade, então crie uma função que retornará
+                verdadeiro se a caminhada que o aplicativo oferece levar exatamente dez
+                minutos (você não queira chegar cedo ou tarde!) e, é claro, o levará de
+                volta ao ponto de partida. Caso contrário, retorne falso .
+
+                Nota : você sempre receberá um array válido contendo uma variedade aleatória
+                de letras de direção ('n', 's', 'e' ou 'w' apenas). Nunca lhe dará um array
+                vazio (isso não é uma caminhada, é ficar parado!).
+
+            Habilidades:
+                FUNDAMENTALS, ARRAYS
