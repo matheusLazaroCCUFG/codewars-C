@@ -176,3 +176,28 @@ KATA Codewars
 
             Habilidades:
                 FUNDAMENTALS, ARRAYS
+
+    Problema: Delete occurrences of an element if it occurs more than n times
+            Instruções:
+                Já é suficiente!
+                    Alice e Bob estavam de férias. Os dois tiraram muitas fotos dos lugares
+                    que estiveram e agora querem mostrar a Charlie toda a coleção.
+                    No entanto, Charlie não gosta dessas sessões, já que o motivo costuma se
+                    repetir. Ele não gosta de ver a Torre Eiffel 40 vezes. Ele diz a eles que
+                    só se sentará durante a sessão se eles mostrarem o mesmo motivo no máximo
+                    N vezes. Felizmente, Alice e Bob são capazes de codificar o motivo como
+                    um número. Você pode ajudá-los a remover números de forma que sua lista
+                    contenha cada número apenas até N vezes, sem alterar a ordem?
+
+                Tarefa
+                    Dada uma lista lst e um número N, crie uma nova lista que contenha cada
+                    número de lst no máximo N vezes sem reordenar. Por exemplo, se N = 2, e
+                    a entrada é [1,2,3,1,2,1,2,3], você pega [1,2,3,1,2], elimina o próximo
+                    [1,2 ], pois isso levaria a 1 e 2 no resultado 3 vezes e, em seguida, a
+                    3, o que leva a [1,2,3,1,2,3].
+
+            Exemplo
+                EnoughIsEnough.deleteNth(new int[] {20,37,20,21}, 1) // return [20,37,21]
+                EnoughIsEnough.deleteNth(new int[] {1,1,3,3,7,2,2,2,2}, 3) // return [1, 1, 3, 3, 7, 2, 2, 2]
+            Habilidades:
+                FUNDAMENTALS, LISTS, DATA STRUCTURES
